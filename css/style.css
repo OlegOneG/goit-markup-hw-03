@@ -156,6 +156,10 @@ body {
     display: flex;
 }
 
+.preference__item {
+    width: calc((100% - 72px) / 4);
+}
+
 .preference__item:not(:last-child) {
     margin-right: 24px;
 }
