@@ -12,6 +12,16 @@ body {
     color: #434455;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
+
 .header {
     background-color: #ffffff;
 }
