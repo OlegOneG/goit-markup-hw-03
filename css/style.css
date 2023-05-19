@@ -26,7 +26,12 @@ body {
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
+}
 
+.menu__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu {
@@ -91,7 +96,7 @@ body {
 }
 
 .contact__item {
-
+    padding: 24px 0;
 }
 
 .contact__link {
