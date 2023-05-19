@@ -115,6 +115,7 @@ body {
     color: #ffffff;
     text-align: center;
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .button {
@@ -201,6 +202,7 @@ body {
 
 .portfolio__content {
     list-style: none;
+    width: calc((100% - 72px));
 }
 
 .portfolio__link {
@@ -290,6 +292,11 @@ body {
 .footer {
     padding: 100px 0;
     background-color: #2E2F42;
+}
+
+.logo link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo__text-footer {
