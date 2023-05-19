@@ -53,10 +53,11 @@ body {
 .menu__list {
     list-style: none;
     display: flex;
+    gap: 40px;
 }
 
 .menu__item {
-
+    padding: 24px 0;
 }
 
 .menu__link {
@@ -236,6 +237,7 @@ body {
 .services__content {
     list-style: none;
     display: flex;
+    width: calc((100% - 48px));
 }
 
 .services__item:not(:last-child) {
@@ -286,6 +288,7 @@ body {
 }
 
 .footer {
+    padding: 100px 0;
     background-color: #2E2F42;
 }
 
