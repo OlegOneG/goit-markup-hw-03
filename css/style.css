@@ -102,6 +102,7 @@ body {
     line-height: 1.07;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .button {
@@ -129,10 +130,11 @@ body {
 
 .preference__list {
     list-style: none;
+    display: flex;
 }
 
-.preference__item {
-
+.preference__item:not(:last-child) {
+    margin-right: 24px;
 }
 
 .preference__subtitle {
@@ -141,6 +143,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .preference__text {
@@ -211,14 +214,16 @@ body {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .services__content {
     list-style: none;
+    display: flex;
 }
 
-.services__item {
-
+.services__item:not(:last-child) {
+    margin-right: 24px;
 }
 
 .team {
@@ -237,14 +242,19 @@ body {
 
 .team__list {
     list-style: none;
+    display: flex;
 }
 
 .team__item {
     background-color: #ffffff;
 }
 
-.team__img {
+.team__item:not(:last-child) {
+    margin-right: 24px;
+}
 
+.team__img {
+    margin-bottom: 32px;
 }
 
 .team__name {
