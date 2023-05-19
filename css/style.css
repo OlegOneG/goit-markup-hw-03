@@ -54,6 +54,7 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu__item {
@@ -172,12 +173,20 @@ body {
     letter-spacing: 0.02em;
 }
 
+
+.portfolio {
+    padding: 96px 0 120px
+}
 .portfolio__title {
 
 }
 
 .portfolio__filter {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .portfolio__btn {
@@ -189,20 +198,29 @@ body {
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .portfolio__btn:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .portfolio__btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .portfolio__content {
     list-style: none;
+
+}
+
+.portfolio__item {
     width: calc((100% - 72px));
 }
 
