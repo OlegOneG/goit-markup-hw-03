@@ -290,6 +290,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .team__position {
@@ -301,7 +302,7 @@ body {
     background-color: #2E2F42;
 }
 
-.logo link {
+.logo {
     display: inline-block;
     margin-bottom: 16px;
 }
