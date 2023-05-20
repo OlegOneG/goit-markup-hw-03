@@ -169,6 +169,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .preference__text {
@@ -229,19 +230,16 @@ body {
     row-gap: 48px;
 }
 
-.portfolio__item {
-
-}
-
 .portfolio__link {
     text-decoration: none;
 }
 
-.portfolio__info {
+.portfolio__content-wrap {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc; 
+    border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+
 }
 
 .portfolio__subtitle {
