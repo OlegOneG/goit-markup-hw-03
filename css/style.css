@@ -22,7 +22,6 @@ body {
     padding: 120px 0;
 }
 
-
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
@@ -59,10 +58,10 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu__item {
-    padding: 24px 0;
 }
 
 .menu__link {
@@ -91,6 +90,7 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact__item {
@@ -337,7 +337,7 @@ body {
     background-color: #2E2F42;
 }
 
-.logo {
+.logo__footer {
     display: inline-block;
     margin-bottom: 16px;
 }
