@@ -31,6 +31,7 @@ body {
 .menu {
     align-items: center;
     display: flex;
+    padding: 24px 0;
 }
 
 
@@ -58,7 +59,8 @@ body {
 }
 
 .menu__item {
-
+    display: flex;
+    padding: 24px 0;
 }
 
 .menu__link {
