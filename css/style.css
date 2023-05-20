@@ -114,7 +114,6 @@ body {
 }
 
 .hero {
-    text-align: center;
     background-color: #2e2f42;
     padding: 188px 0;
 }
@@ -131,6 +130,8 @@ body {
 }
 
 .button {
+    display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
