@@ -34,6 +34,7 @@ body {
 .menu {
     align-items: center;
     display: flex;
+    padding: 24px 0;
 }
 
 
@@ -61,7 +62,7 @@ body {
 }
 
 .menu__item {
-    padding: 24px 0;
+
 }
 
 .menu__link {
@@ -83,6 +84,7 @@ body {
 
 .address {
     font-style: normal;
+    padding: 24px 0;
 }
 
 .contact__list {
@@ -92,7 +94,7 @@ body {
 }
 
 .contact__item {
-    padding: 24px 0;
+
 }
 
 .contact__link {
