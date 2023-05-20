@@ -58,11 +58,10 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .menu__item {
-
+    padding: 24px 0;
 }
 
 .menu__link {
@@ -72,7 +71,6 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
-
 }
 
 .menu__link:hover {
@@ -91,11 +89,10 @@ body {
     list-style: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .contact__item {
-
+    padding: 24px 0;
 }
 
 .contact__link {
