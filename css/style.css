@@ -34,9 +34,7 @@ body {
 .menu {
     align-items: center;
     display: flex;
-    padding: 24px 0;
 }
-
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -84,7 +82,6 @@ body {
 
 .address {
     font-style: normal;
-    padding: 24px 0;
 }
 
 .contact__list {
