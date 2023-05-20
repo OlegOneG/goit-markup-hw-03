@@ -31,7 +31,6 @@ body {
 .menu {
     align-items: center;
     display: flex;
-    padding: 24px 0;
 }
 
 
@@ -334,7 +333,7 @@ body {
     background-color: #2E2F42;
 }
 
-.logo {
+.logo__footer {
     display: inline-block;
     margin-bottom: 16px;
 }
